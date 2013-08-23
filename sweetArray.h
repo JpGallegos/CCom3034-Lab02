@@ -12,6 +12,14 @@ public:
 	SweetArray(int n);
 	int& operator[](int i);
 
+	int getArraySize()const;
+
+	void rmDup();
+
+	SweetArray operator+(const SweetArray& B)const;
+	SweetArray operator&(const SweetArray& B)const;
+	SweetArray operator|(const SweetArray& B)const;
+
 friend ostream& operator<<(ostream& out, SweetArray S);
 
 };

@@ -18,12 +18,10 @@ int main() {
 	
 	// This portion should work once you implement
 	// the requested methods...
-	/***
+	
 	cout << "The sum of A and B is: " << (A + B) << endl;
 	cout << "The intersection of A and B is: " << (A & B) << endl;
 	cout << "The union of A and B is: " << (A | B) << endl;
-
-	***/
 
 	return 0;
 }
